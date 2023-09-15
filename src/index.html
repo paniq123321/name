@@ -15,80 +15,94 @@
 <body>
 <header>
     <section class="nav-bar">
-    <nav class="navbar navbar-expand-lg navbar-light bg_light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" href="#"><span>Главная</span> <span class="sr-only">(текущая)</span></a>
-                <a class="nav-link active" href="#"><span>Со своим автомобилем</span></a>
-                <a class="nav-link active" href="#"><span>на автомобиле компании</span></a>
-                <a class="nav-link active" href="#"><span>Требования</span></a>
-                <a class="nav-link active" href="#"><span class="navbar-nav_noBorder">контакты</span></a>
-                <a class="nav-link active " href="#"><span class="navbar-nav_noBorder">Оставить заявку</span></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg_light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><span>Главная</span> <span class="sr-only">(текущая)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span>Со своим автомобилем</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span>на автомобиле компании</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span>Требования</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="navbar-nav_noBorder">контакты</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="navbar-nav_noBorder">Оставить заявку</span></a>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </nav>
+        </nav>
     </section>
-    <figure class="img figure-init" style="background-image: url(img/photo_uber.jpg)">
-        <figcaption class="figure-init_contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col figure-init_contact__font100">
-                        Официальный партнер Uber  Украина
-                    </div>
-                    <div class="col row justify-content-around">
-                        <div class="text-right">
-                        <span class="figure-init_contact__font200">
+    <section class="figure-init_contact">
+        <div class="container">
+            <div class="row justify-content-end justify-content-sm-between ">
+                <div class="col-5 col-sm-4 col-md-3 figure-init_contact__font100 d-none d-sm-block">
+                    Официальный партнер Uber  Украина
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="row justify-content-between ">
+                    <div class="text-right">
+                        <span class="figure-init_contact__font200 d-none d-sm-inline ">
                             Звоните нам ежедневно
                         </span>
                         <br>
-                            <span class="figure-init_contact__fontSize">
+                        <span class="figure-init_contact__fontSize">
                                 380992450345
                             </span>
-                        </div>
-                        <a class="btn">заказать звонок</a>
-                        </div>
+                    </div>
+                    <a class="btn">заказать звонок</a>
                     </div>
                 </div>
-        </figcaption>
-        <figcaption class="container">
-        <div class="row flex-column text-center justify-content-between figure-init_content">
+            </div>
+        </div>
+    </section>
+    <figure class="img figure-init" style="background-image: url(img/photo_uber.jpg)">
+        <figcaption class="row flex-column text-center justify-content-around justify-content-sm-between  figure-init_content">
             <div class="col">
             <div class="content-h1H3">
             <h1>КОМПАНИЯ UBER PARTNERS!</h1>
             <h3>ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h3>
             </div>
-            <p>Компания UBER  динамически развивающаяся. Компания на рынке занимает лидирующее место среди
+            <p class="d-none d-sm-block">Компания UBER  динамически развивающаяся. Компания на рынке занимает лидирующее место среди
                 таксомоторных компаний, Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система.Помимо выполненной работы по заказам, компания начисляет бонусы за
                 пиковое время.
             </p>
-            <p>Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Киев.  Водители у нас
+            <p class="d-none d-sm-block">Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Киев.  Водители у нас
                 зарабатывают от 80000- 120000 в месяц.
             </p>
             </div>
             <div class="col">
             <a class="btn">ОТПРАВИТЬ ЗАЯВКУ!</a>
             </div>
-        </div>
         </figcaption>
     </figure>
 </header>
 <main>
-    <section class="">
+
 <div class="container">
-    <div class="row flex-column">
-    <div class="col text-center">преимущества</div>
-    <h2 class="col text-center">8 причин начать работать с нами</h2>
-        <div class="container">
+    <div class="row flex-column justify-content-between align-items-center main-block">
+    <div class="col-3 col-md-2 text-center div-first1">преимущества</div>
+    <h2 class="col col-md-8 text-center mb-5">8 причин начать работать с нами</h2>
+        <div class="col">
     <div class="row  row-cols-1 row-cols-md-2">
         <div class="col">
-            <div class="container">
           <div class="row flex-column flex-sm-row">
-            <figure class="col text-center">
-                <img src="" alt="1">
-            </figure>
+              <figure class="col col-sm-3 text-center mt-0 mt-md-3">
+                  <figcaption class="div-figure__radius">
+                      <i class="bi-wallet2"></i>
+                  </figcaption>
+              </figure>
             <div class="col col-sm-9">
                 <h4>
                     Никаких наличных, оплата происходит автоматически
@@ -100,13 +114,13 @@
                 </p>
             </div>
         </div>
-            </div>
     </div>
         <div class="col">
-            <div class="container">
             <div class="row flex-column flex-sm-row">
-                <figure class="col text-center">
-                    <img src="" alt="1">
+                <figure class="col col-sm-3 text-center mt-0 mt-md-3">
+                    <figcaption class="div-figure__radius">
+                        <i class="bi-easel2"></i>
+                    </figcaption>
                 </figure>
                 <div class="col col-sm-9">
                     <h4>
@@ -119,13 +133,13 @@
                     </p>
                 </div>
             </div>
-            </div>
         </div>
         <div class="col">
-            <div class="container">
             <div class="row flex-column flex-sm-row">
-                <figure class="col text-center">
-                    <img src="" alt="1">
+                <figure class="col col-sm-3 text-center mt-0 mt-md-5">
+                    <figcaption class="div-figure__radius">
+                        <i class="bi-cash-stack"></i>
+                    </figcaption>
                 </figure>
                 <div class="col col-sm-9">
                     <h4>
@@ -138,13 +152,13 @@
                     </p>
                 </div>
             </div>
-            </div>
         </div>
         <div class="col">
-            <div class="container">
             <div class="row flex-column flex-sm-row">
-                <figure class="col text-center">
-                    <img src="" alt="1">
+                <figure class="col col-sm-3 text-center mt-0 mt-md-5">
+                    <figcaption class="div-figure__radius">
+                        <i class="bi-calendar-date"></i>
+                    </figcaption>
                 </figure>
                 <div class="col col-sm-9">
                     <h4>
@@ -156,13 +170,13 @@
                     </p>
                 </div>
             </div>
-            </div>
         </div>
         <div class="col">
-            <div class="container">
             <div class="row flex-column flex-sm-row">
-                <figure class="col text-center">
-                    <img src="" alt="1">
+                <figure class="col col-sm-3 text-center mt-0 mt-md-5">
+                    <figcaption class="div-figure__radius">
+                        <i class="bi-key"></i>
+                    </figcaption>
                 </figure>
                 <div class="col col-sm-9">
                     <h4>
@@ -175,13 +189,13 @@
                     </p>
                 </div>
             </div>
-            </div>
         </div>
         <div class="col">
-            <div class="container">
             <div class="row flex-column flex-sm-row">
-                <figure class="col text-center">
-                    <img src="" alt="1">
+                <figure class="col col-sm-3 text-center mt-0 mt-md-5">
+                    <figcaption class="div-figure__radius">
+                        <i class="bi-map"></i>
+                    </figcaption>
                 </figure>
                 <div class="col col-sm-9">
                     <h4>
@@ -194,13 +208,13 @@
                     </p>
                 </div>
             </div>
-            </div>
         </div>
         <div class="col">
-            <div class="container">
             <div class="row flex-column flex-sm-row">
-                <figure class="col text-center">
-                    <img src="" alt="1">
+                <figure class="col col-sm-3 text-center mt-0 mt-md-3">
+                    <figcaption class="div-figure__radius">
+                        <i class="bi-telephone"></i>
+                    </figcaption>
                 </figure>
                 <div class="col col-sm-9">
                     <h4>
@@ -212,13 +226,13 @@
                     </p>
                 </div>
             </div>
-            </div>
         </div>
         <div class="col">
-            <div class="container">
             <div class="row flex-column flex-sm-row">
-                <figure class="col text-center">
-                    <img src="" alt="1">
+                <figure class="col col-sm-3 text-center mt-0 mt-md-3">
+                    <figcaption class="div-figure__radius">
+                        <i class="bi-car-front"></i>
+                    </figcaption>
                 </figure>
                 <div class="col col-sm-9">
                     <h4>
@@ -229,274 +243,273 @@
                     </p>
                 </div>
             </div>
-            </div>
         </div>
 </div>
 </div>
 </div>
 </div>
-    </section>
-    <section class="">
+    <section class="img main-block" style="background-image: url(img/photo-for-background.jpg)">
         <div class="container">
-            <div class="row flex-column">
-                <div class="col text-center">преимущества</div>
-                <h2 class="col text-center">8 причин начать работать с нами</h2>
-                <p class="col text-center">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</p>
-                <div class="col row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                    <figure class="col">
-                        <figcaption class="text-center">
+            <div class="row flex-column justify-content-center align-items-center">
+                <div class="col-3 col-md-2 text-center div-first1">преимущества</div>
+                <h2 class="col text-center">МОБИЛЬНОЕ ПРИЛОЖЕНИЕ УБЕР</h2>
+                <p class="col text-center mb-4">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</p>
+                <div class="col row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col">
+                    <figure class="img div-figure position-relative" style="background-image: url(img/phone-png.jpg)">
+                        <figcaption class="text-center position-absolute  figure-figcaption__position">
                             <h3>
                                 оформление заказа одним касанием
                             </h3>
-                           <a href="#">
-                               <img src="" alt="1">
+                           <a href="#" class="d-block">
+                               <i class="bi bi-plus"></i>
                            </a>
                         </figcaption>
                     </figure>
-                    <figure class="col">
-                        <figcaption class="text-center">
+                    </div>
+                    <div class="col">
+                    <figure class="img div-figure position-relative" style="background-image: url(img/phone-png1.jpg)">
+                        <figcaption class="text-center position-absolute  figure-figcaption__position">
                             <h3>
                                 оформление заказа одним касанием
                             </h3>
-                            <a href="#">
-                                <img src="" alt="1">
+                            <a href="#" class="d-block">
+                                <i class="bi bi-plus"></i>
                             </a>
                         </figcaption>
                     </figure>
-                    <figure class="col">
-                        <figcaption class="text-center">
+                    </div>
+                    <div class="col">
+                    <figure class="img div-figure position-relative" style="background-image: url(img/phone-png2.jpg)">
+                        <figcaption class="text-center position-absolute  figure-figcaption__position">
                             <h3>
                                 оформление заказа одним касанием
                             </h3>
-                            <a href="#">
-                                <img src="" alt="1">
+                            <a href="#" class="d-block">
+                                <i class="bi bi-plus"></i>
                             </a>
                         </figcaption>
                     </figure>
-                    <figure class="col">
-                        <figcaption class="text-center">
+                    </div>
+                    <div class="col">
+                    <figure class="img div-figure position-relative" style="background-image: url(img/phone-png3.jpg)">
+                        <figcaption class="text-center position-absolute  figure-figcaption__position">
                             <h3>
                                 оформление заказа одним касанием
                             </h3>
-                            <a href="#">
-                                <img src="" alt="1">
+                            <a href="#" class="d-block">
+                                <i class="bi bi-plus"></i>
                             </a>
                         </figcaption>
                     </figure>
-                    <figure class="col">
-                        <figcaption class="text-center">
+                    </div>
+                    <div class="col">
+                    <figure class="img div-figure position-relative" style="background-image: url(img/phone-png4.jpg)">
+                        <figcaption class="text-center position-absolute  figure-figcaption__position">
                             <h3>
                                 оформление заказа одним касанием
                             </h3>
-                            <a href="#">
-                                <img src="" alt="1">
+                            <a href="#" class="d-block">
+                                <i class="bi bi-plus"></i>
                             </a>
                         </figcaption>
                     </figure>
-                    <figure class="col">
-                        <figcaption class="text-center">
+                    </div>
+                    <div class="col">
+                    <figure class="img div-figure position-relative" style="background-image: url(img/phone-png2.jpg)">
+                        <figcaption class="text-center position-absolute  figure-figcaption__position">
                             <h3>
                                 оформление заказа одним касанием
                             </h3>
-                            <a href="#">
-                                <img src="" alt="1">
+                            <a href="#" class="d-block">
+                                <i class="bi bi-plus"></i>
                             </a>
                         </figcaption>
                     </figure>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="">
+    <section class="main-block section__backgroundBlock">
         <div class="container">
-            <div class="row flex-column">
-                <div class="col text-center">Возможности</div>
+            <div class="row flex-column align-items-center pt-5">
+                <div class="col-3 col-md-2 text-center div-first2">Возможности</div>
                 <h2 class="col text-center">Выбор - отличная штука!</h2>
                 <p class="col text-center">Закажите автомобиль, который подходит вам по стилю и бюджету</p>
-                <figure>
-
-                </figure>
+                <figure class="col text-center img div-row-figure__height" style="background-image: url(img/car_for_uber_png.png)"></figure>
             </div>
         </div>
     </section>
-    <section class="">
-        <div class="column">
-            <div class="row">
+    <section class="img" style="background-image: url(img/photo-for-background.jpg)">
+        <div class="container">
+            <div class="row justify-content-center align-items-center section-div__height">
             <p class="col text-center">Машины на каждый день.<br>Лучше, быстрее и дешевле, чем такси</p>
             </div>
         </div>
     </section>
-    <section class="">
+    <section class="pt-5 main-block">
         <div class="container">
-            <div class="row flex-column">
-                <div class="col text-center">Возможности</div>
-                <h2 class="col text-center">условия и требования</h2>
-                <div class="col">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-sm-2">
-                        <div class="col">
-                        <div class="container">
+            <div class="row flex-column justify-content-center align-items-center">
+                <div class="col-3 col-md-2 text-center div-first1">Возможности</div>
+                <h2 class="col text-center mb-5">условия и требования</h2>
+                <div class="col row row-cols-1 row-cols-md-2 font-weight-light">
+                        <div class="col mb-4">
                             <div class="row flex-column">
-                        <h3 class="col">УСЛОВИЯ: со своим авто:</h3>
-                        <ul class="col list-unstyled">
+                        <h3 class="col div__colorBlue">УСЛОВИЯ: со своим авто:</h3>
+                        <ul class="col list-unstyled ul-li__before">
                             <li>
-                                Подключаем к системе UBER  под 10%
+                                <i class="bi bi-check-circle"></i>  Подключаем к системе UBER  под 10%
                             </li>
                             <li>
-                                Ни каких взносов  0%!
+                                <i class="bi bi-check-circle"></i>  Ни каких взносов  0%!
                             </li>
                             <li>
-                                Можем подключать удаленно без приезда в офис
+                                <i class="bi bi-check-circle"></i>  Можем подключать удаленно без приезда в офис
                             </li>
                             <li>
-                                ИП не требуется
+                                <i class="bi bi-check-circle"></i>  ИП не требуется
                             </li>
                             <li>
-                                Заказы распределяются без учета рейтинга ближай-<br>
+                                <i class="bi bi-check-circle"></i>  Заказы распределяются без учета рейтинга ближай-<br>
                                 шим водителям
                             </li>
                             <li>
-                                Работа только по безналичному расчету
+                                <i class="bi bi-check-circle"></i>  Работа только по безналичному расчету
                             </li>
                             <li>
-                                Деньги перечисляем на карту водителю или наличны-<br>
+                                <i class="bi bi-check-circle"></i>  Деньги перечисляем на карту водителю или наличны-<br>
                                 ми в офисе
                             </li>
                         </ul>
-                        <p class="col">В день заработок составляет 7000-12000р + бонус 3000т рублей</p>
+                        <p class="col div__colorBlue">В день заработок составляет 7000-12000р + бонус 3000т рублей</p>
                             </div>
                         </div>
-                        </div>
-                        <div class="col">
-                            <div class="container">
+                        <div class="col mb-4">
                                 <div class="row flex-column">
-                                    <h3 class="col">УСЛОВИЯ: на авто компании:</h3>
-                                    <ul class="col list-unstyled">
+                                    <h3 class="col div__colorBlue">УСЛОВИЯ: на авто компании:</h3>
+                                    <ul class="col list-unstyled ul-li__before">
                                         <li>
-                                            Предоставляем авто без залога
+                                            <i class="bi bi-check-circle"></i>  Предоставляем авто без залога
                                         </li>
                                         <li>
-                                            Без ежедневных выплат по аренде
+                                            <i class="bi bi-check-circle"></i>  Без ежедневных выплат по аренде
                                         </li>
                                         <li>
-                                            Среда пятница и суббота работа на компанию осталь-
+                                            <i class="bi bi-check-circle"></i>  Среда пятница и суббота работа на компанию осталь-
                                             ные дни вы работаете на себя
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
                         </div>
-                        <div class="col">
-                            <div class="container">
+                        <div class="col mb-4 mb-md-0">
                                 <div class="row flex-column">
-                                    <h3 class="col">ТРЕБОВАНИЕ:</h3>
-                                    <ul class="col list-unstyled">
+                                    <h3 class="col div__colorRed">ТРЕБОВАНИЕ:</h3>
+                                    <ul class="col list-unstyled ul-li__before1">
                                         <li>
-                                            Наличие автомобиля без рекламы
+                                            <i class="bi bi-check-circle"></i>  Наличие автомобиля без рекламы
                                         </li>
                                         <li>
-                                            Автомобиль не должен быть желтый и не с желтыми
+                                            <i class="bi bi-check-circle"></i>  Автомобиль не должен быть желтый и не с желтыми
                                             номерами
                                         </li>
                                         <li>
-                                            Машина не старше 3 лет
+                                            <i class="bi bi-check-circle"></i>  Машина не старше 3 лет
                                         </li>
                                         <li>
-                                            Стаж вождения не менее 3 лет
+                                            <i class="bi bi-check-circle"></i>  Стаж вождения не менее 3 лет
                                         </li>
                                         <li>
-                                            Девайс на системе андроид 4.0 и выше(самсунг)
+                                            <i class="bi bi-check-circle"></i>  Девайс на системе андроид 4.0 и выше(самсунг)
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
                         </div>
                         <div class="col">
-                            <div class="container">
                                 <div class="row flex-column">
-                                    <h3 class="col">ДОКУМЕНТЫ:</h3>
-                                    <ul class="col list-unstyled">
+                                    <h3 class="col div__colorRed">ДОКУМЕНТЫ:</h3>
+                                    <ul class="col list-unstyled ul-li__before1">
                                         <li>
-                                            Права 2 стороны
+                                            <i class="bi bi-check-circle"></i> Права 2 стороны
                                         </li>
                                         <li>
-                                            Паспорт лицевая сторона
+                                            <i class="bi bi-check-circle"></i>  Паспорт лицевая сторона
                                         </li>
                                         <li>
-                                            СтС
+                                            <i class="bi bi-check-circle"></i> СтС
                                         </li>
                                         <li>
-                                            Лицензия (если есть)
+                                            <i class="bi bi-check-circle"></i> Лицензия (если есть)
                                         </li>
                                         <li>
-                                            Номер телефона
+                                            <i class="bi bi-check-circle"></i> Номер телефона
                                         </li>
                                         <li>
-                                            Номер карты для перечисления денег(указать в письме)!
+                                            <i class="bi bi-check-circle"></i>  Номер карты для перечисления денег(указать в письме)!
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
                         </div>
                     </div>
 
                 </div>
                 </div>
-            </div>
-        </div>
     </section>
-    <figure>
-        <div class="column">
-            <div class="row flex-column justify-content-around">
-                <div class="col">
-                    <div class="container">
-                        <div class="row flex-column">
-                            <div class="col text-center">города</div>
+    <figure class="figure-last-block img pt-5" style="background-image: url(img/map_of_uber.jpg)">
+        <div class="container">
+            <div class="row flex-column justify-content-between figure-div__height">
+                <div class="">
+                        <div class="row flex-column justify-content-center align-items-center">
+                            <div class="col-3 col-md-2 text-center div-first2">города</div>
                             <h2 class="col text-center">По всему миру</h2>
                             <p class="col text-center">Мы в вашем городе и по всему миру</p>
                         </div>
-
-                    </div>
                 </div>
-                <div class="col text-center">
+                <div class=" text-center">
                     <a href="#">посмотреть все города</a>
                 </div>
             </div>
         </div>
     </figure>
 </main>
-<footer>
-    <hr>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col">
-                    <ul class="row list-unstyled">
-                        <li class="col"><img src="" alt="1"></li>
-                        <li class="col"><img src="" alt="1"></li>
-                        <li class="col"><img src="" alt="1"></li>
-                        <li class="col"><img src="" alt="1"></li>
-                    </ul>
-            </div>
-            <div class="col-8 text-center">
-                <div class="row flex-column">
-                    <div class="col row">
-                           <h3 class="col">на главную</h3>
-                            <h3 class="col">города</h3>
-                            <h3 class="col">для водителей</h3>
+<footer class="position-relative">
+    <div class="position-absolute row justify-content-center justify-content-lg-between footer-div__position row-cols-1  row-cols-lg-2">
+    <ul class="col col-lg-4 row list-unstyled mb-0 justify-content-center">
+    <li class="mr-3"><figure class="footer-figure__background"><i class="bi-brightness-high"></i></figure></li>
+    <li class="mr-3"><figure class="footer-figure__background"><i class="bi-brush"></i></figure></li>
+    <li class="mr-3"><figure class="footer-figure__background"><i class="bi-c-circle"></i></figure></li>
+    <li><figure class="footer-figure__background"><i class="bi-bullseye"></i></figure></li>
+</ul>
+    <ul class="col col-lg-4 row list-unstyled section-ul__position mb-0 justify-content-center justify-content-lg-end">
+        <li class="mr-1"><i class="bi-apple"></i><span class="d-inline-block">available on the</span> </li>
+        <li class="mr-1"></li>
+        <li></li>
+    </ul>
+    </div>
+
+    <hr class="footer-hr__decoration">
+    <section class="container">
+
+
+                <div class="col-12 col-md-6 text-center row flex-column offset-0 offset-md-3 m-auto">
+                    <div class="col row justify-content-around">
+                           <h3 class="">на главную</h3>
+                            <h3 class="">города</h3>
+                            <h3 class="">для водителей</h3>
                     </div>
-                    <div class="col row">
-                        <div class="col">центр поддержки</div>
-                        <div class="col-2">вакансии</div>
-                        <div class="col-2">разработчики</div>
-                        <div class="col-2">блог</div>
-                        <div class="col-2">о нас</div>
+                    <div class="col row justify-content-around">
+                        <div class="">центр поддержки</div>
+                        <div class="">вакансии</div>
+                        <div class="">разработчики</div>
+                        <div class="">блог</div>
+                        <div class="">о нас</div>
                     </div>
                     <div class="col">
                         русский
                     </div>
                 </div>
-            </div>
-            <div class="col row">
+            <!--
+            <div class="col row ">
                 <figure class="col">
                     <img src="" alt="1">
                 </figure>
@@ -506,8 +519,7 @@
                 <figure class="col">
                     <img src="" alt="1">
                 </figure>
-            </div>
-        </div>
+            </div>-->
     </section>
 </footer>
 

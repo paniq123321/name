@@ -1,4 +1,8 @@
 @import "variables"
+= FirstBlock
+  font-size: 14px
+  padding: 7px 10px
+  margin-bottom: 40px
 .img
   background-position: 50% 50%
   background-size: cover
@@ -16,24 +20,29 @@
         font-weight: 200
       .navbar-nav_noBorder
        border: none
+.figure-init_contact
+  background: rgba(0, 0, 0, .5)
+  padding-top: 19px
+  padding-bottom: 19px
+  position: absolute
+  right: 0
+  left: 0
+  z-index: 100
+  color: #fff
+  .figure-init_contact__font100
+    font-weight: 100
+  .figure-init_contact__font200
+    font-weight: 200
+    font-size: 12px
+  .figure-init_contact__fontSize
+      font-size: 24px
 .figure-init
   height: 800px
   color: #fff
-  .figure-init_contact
-    background: rgba(0, 0, 0, .5)
-    padding-top: 19px
-    padding-bottom: 19px
-    margin-bottom: 58px
-    .figure-init_contact__font100
-      font-weight: 100
-    .figure-init_contact__font200
-      font-weight: 200
-      font-size: 12px
-    .figure-init_contact__fontSize
-      font-size: 24px
   .figure-init_content
-    height: 471px
+    min-height: 700px
     max-width: 1000px
+    padding-top: 150px
     margin: auto
     .col
       flex-grow: initial
@@ -49,16 +58,148 @@
       h3
         font-size: 28px
         margin-bottom: 0
-  .btn
-    height: 50px
-    width: auto
-    font-size: 14px
-    padding: 14px 22px
-    background: #55B7CF
+.btn
+  height: 50px
+  width: auto
+  font-size: 14px
+  padding: 14px 22px
+  background: #55B7CF
+  color: #fff
+  text-transform: uppercase
+  text-shadow: 1px 1px gray
+  box-shadow: 0 3px #1998B0
+.section-ul__position
+  li
+    height: 26px
+    width: 95px
+    background: #000000
+    border-radius: 3px
+    color: #FFFFFF
+    padding-left: 9px
+    span
+      font-size: 5px
+.footer-div__position
+  left: -2%
+  right: 4%
+  top: 30px
+.text-center .img-circle
+  background: #0c5460
+.div-figure__radius
+  color: white
+  background: #20ACC7
+  border-radius: 50%
+  display: flex
+  width: 100px
+  height: 100px
+  justify-content: center
+  align-items: center
+  margin: auto
+  i
+    font-size: 50px
+.div-first1
+  @include FirstBlock
+  background: #000000
+  color: #FFFFFF
+.div-first2
+  @include FirstBlock
+  background: #FFFFFF
+  color: #000000
+.main-block
+  padding: 20px 0
+.div-figure
+  min-height: 280px
+  .figure-figcaption__position
+    display: flex
+    justify-content: space-around
+    flex-direction: column
     color: #fff
-    text-transform: uppercase
-    text-shadow: 1px 1px gray
-    box-shadow: 0 3px #1998B0
+    top: 0
+    bottom: 0
+    right: 0
+    left: 0
+    h3
+      padding-top: 50px
+      font-weight: 300
+      text-transform: uppercase
+    a
+      width: 25px
+      height: 25px
+      border-radius: 50%
+      background: #000
+      color: #3F9DB4
+      margin: 0 auto
+      .bi-plus::before
+        font-size: 25px
+.section__backgroundBlock
+  color: #FFFFFF
+  background: #000000
+  height: 498px
+.section-div__height
+  height: 397px
+.div-row-figure__height
+  min-height: 480px
+  background-size: contain
+.div__colorBlue
+  color: #1AA8C3
+.div__colorRed
+  color:  #FF5756
+.ul-li__before
+  li
+    i
+      color: #1AA8C3
+.ul-li__before1
+  li
+    i
+      color:  #FF5756
+.figure-last-block
+  height: 717px
+  color: #fff
+  h2
+    font-size: 48px
+  a
+    color: #20BAD6
+  .figure-div__height
+    height: 600px
+.footer-hr__decoration
+  text-align: center
+  width: 240px
+  border: 2px solid #1EBAD7
+
+
+.footer-figure__background
+  width: 32px
+  height: 32px
+  color: #FFFFFF
+  background: #000000
+  border-radius: 50%
+  i::before
+    font-size: 32px
+
+@media all and (max-width: 990px)
+  .footer-div__position
+    right: 0
+    left: 0
+    top: 175px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
