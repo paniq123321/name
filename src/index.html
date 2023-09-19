@@ -15,13 +15,13 @@
 <body>
 <header>
     <section class="nav-bar">
-        <nav class="navbar navbar-expand-lg navbar-light bg_light">
+        <nav class="navbar navbar-expand-lg navbar-light bg_light column">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse row justify-content-center" id="navbarNav">
+                <ul class="navbar-nav col row justify-content-center">
                     <li class="nav-item active">
                         <a class="nav-link" href="#"><span>Главная</span> <span class="sr-only">(текущая)</span></a>
                     </li>
@@ -46,13 +46,12 @@
     </section>
     <section class="figure-init_contact">
         <div class="container">
-            <div class="row justify-content-end justify-content-sm-between ">
-                <div class="col-5 col-sm-4 col-md-3 figure-init_contact__font100 d-none d-sm-block">
+            <div class="row">
+                <div class="offset-1 col-lg-3 figure-init_contact__font100 d-none d-lg-block">
                     Официальный партнер Uber  Украина
                 </div>
-                <div class="col-6 col-md-4">
-                    <div class="row justify-content-between ">
-                    <div class="text-right">
+                <div class="offset-2  col-lg-5 row row-cols-1 row-cols-md-2">
+                    <div class="text-center text-sm-right col-6 offset-5 offset-sm-0">
                         <span class="figure-init_contact__font200 d-none d-sm-inline ">
                             Звоните нам ежедневно
                         </span>
@@ -61,14 +60,14 @@
                                 380992450345
                             </span>
                     </div>
-                    <a class="btn">заказать звонок</a>
-                    </div>
+                    <a class="btn col-6 offset-5 offset-sm-0">заказать звонок</a>
                 </div>
             </div>
         </div>
     </section>
-    <figure class="img figure-init" style="background-image: url(img/photo_uber.jpg)">
-        <figcaption class="row flex-column text-center justify-content-around justify-content-sm-between  figure-init_content">
+
+    <figure class="img figure-init column" style="background-image: url(img/photo_uber.jpg)">
+        <figcaption class="col-10 offset-1 row row-cols-1 figure-init_content text-center  align-items-center">
             <div class="col">
             <div class="content-h1H3">
             <h1>КОМПАНИЯ UBER PARTNERS!</h1>
@@ -81,33 +80,31 @@
             <p class="d-none d-sm-block">Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Киев.  Водители у нас
                 зарабатывают от 80000- 120000 в месяц.
             </p>
-            </div>
-            <div class="col">
-            <a class="btn">ОТПРАВИТЬ ЗАЯВКУ!</a>
+                <a class="btn">ОТПРАВИТЬ ЗАЯВКУ!</a>
             </div>
         </figcaption>
     </figure>
+
 </header>
 <main>
-
 <div class="container">
-    <div class="row flex-column justify-content-between align-items-center main-block">
-    <div class="col-3 col-md-2 text-center div-first1">преимущества</div>
-    <h2 class="col col-md-8 text-center mb-5">8 причин начать работать с нами</h2>
+    <div class="row row-cols-1 justify-content-between align-items-center main-block">
+    <div class="col-4 offset-4 col-lg-2 offset-lg-5 text-center div-first1">преимущества</div>
+    <h2 class="col-lg-8 offset-lg-2 text-center mb-5">8 причин начать работать с нами</h2>
         <div class="col">
-    <div class="row  row-cols-1 row-cols-md-2">
+    <div class="row  row-cols-1 row-cols-lg-2">
         <div class="col">
           <div class="row flex-column flex-sm-row">
-              <figure class="col col-sm-3 text-center mt-0 mt-md-3">
+              <figure class="col col-sm-3 text-center m-auto">
                   <figcaption class="div-figure__radius">
                       <i class="bi-wallet2"></i>
                   </figcaption>
               </figure>
             <div class="col col-sm-9">
-                <h4>
+                <h4 class="div-h4__decoration">
                     Никаких наличных, оплата происходит автоматически
                 </h4>
-                <p>
+                <p class="div-p__decoration">
                     Стоимость поездки оплачивается пассажиром с привязанной банковской карты,
                     т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира,
                     так и для водителя, Вам не нужно искать мелкие деньги для размена.
@@ -117,16 +114,16 @@
     </div>
         <div class="col">
             <div class="row flex-column flex-sm-row">
-                <figure class="col col-sm-3 text-center mt-0 mt-md-3">
+                <figure class="col col-sm-3 text-center  m-auto">
                     <figcaption class="div-figure__radius">
                         <i class="bi-easel2"></i>
                     </figcaption>
                 </figure>
                 <div class="col col-sm-9">
-                    <h4>
+                    <h4 class="div-h4__decoration">
                         Комиссия 8% + БОНУСЫ
                     </h4>
-                    <p>
+                    <p class="div-p__decoration">
                         У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку,
                         некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно
                         и с нами водители зарабатывают больше!
@@ -136,16 +133,16 @@
         </div>
         <div class="col">
             <div class="row flex-column flex-sm-row">
-                <figure class="col col-sm-3 text-center mt-0 mt-md-5">
+                <figure class="col col-sm-3 text-center  m-auto">
                     <figcaption class="div-figure__radius">
                         <i class="bi-cash-stack"></i>
                     </figcaption>
                 </figure>
                 <div class="col col-sm-9">
-                    <h4>
+                    <h4 class="div-h4__decoration">
                         Высокий доход с гарантированными выплатами
                     </h4>
-                    <p>
+                    <p class="div-p__decoration">
                         Мы выплачиваем заработную плату на личную банковскую карту водителя!
                         Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию,
                         оплачивать бухгалтерские услуги и ведение банковского счета.
@@ -155,16 +152,16 @@
         </div>
         <div class="col">
             <div class="row flex-column flex-sm-row">
-                <figure class="col col-sm-3 text-center mt-0 mt-md-5">
+                <figure class="col col-sm-3 text-center  m-auto">
                     <figcaption class="div-figure__radius">
                         <i class="bi-calendar-date"></i>
                     </figcaption>
                 </figure>
                 <div class="col col-sm-9">
-                    <h4>
+                    <h4 class="div-h4__decoration">
                         Работа в удобное время, никаких графиков
                     </h4>
-                    <p>
+                    <p class="div-p__decoration">
                         Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии.
                         Вы можете подрабатывать только утром, вечером, в выходные или праздничные дни!
                     </p>
@@ -173,16 +170,16 @@
         </div>
         <div class="col">
             <div class="row flex-column flex-sm-row">
-                <figure class="col col-sm-3 text-center mt-0 mt-md-5">
+                <figure class="col col-sm-3 text-center  m-auto">
                     <figcaption class="div-figure__radius">
                         <i class="bi-key"></i>
                     </figcaption>
                 </figure>
                 <div class="col col-sm-9">
-                    <h4>
+                    <h4 class="div-h4__decoration">
                         Комфортное, прозрачное и простое подключение
                     </h4>
-                    <p>
+                    <p class="div-p__decoration">
                         Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам!
                         Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения,
                         через 1-2 дня Вы можете начинать работать!
@@ -192,16 +189,16 @@
         </div>
         <div class="col">
             <div class="row flex-column flex-sm-row">
-                <figure class="col col-sm-3 text-center mt-0 mt-md-5">
+                <figure class="col col-sm-3 text-center  m-auto">
                     <figcaption class="div-figure__radius">
                         <i class="bi-map"></i>
                     </figcaption>
                 </figure>
                 <div class="col col-sm-9">
-                    <h4>
+                    <h4 class="div-h4__decoration">
                         Всегда большое количество заказов
                     </h4>
-                    <p>
+                    <p class="div-p__decoration">
                         Приложение показывает, где на данный момент больше всего заказов
                         и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов.
                         Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.
@@ -211,16 +208,16 @@
         </div>
         <div class="col">
             <div class="row flex-column flex-sm-row">
-                <figure class="col col-sm-3 text-center mt-0 mt-md-3">
+                <figure class="col col-sm-3 text-center  m-auto">
                     <figcaption class="div-figure__radius">
                         <i class="bi-telephone"></i>
                     </figcaption>
                 </figure>
                 <div class="col col-sm-9">
-                    <h4>
+                    <h4 class="div-h4__decoration">
                         Круглосуточная поддержка
                     </h4>
-                    <p>
+                    <p class="div-p__decoration">
                         В Uber действует круглосуточная поддержка водителей по электронной почте.
                         Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.
                     </p>
@@ -229,16 +226,16 @@
         </div>
         <div class="col">
             <div class="row flex-column flex-sm-row">
-                <figure class="col col-sm-3 text-center mt-0 mt-md-3">
+                <figure class="col col-sm-3 text-center  m-auto">
                     <figcaption class="div-figure__radius">
                         <i class="bi-car-front"></i>
                     </figcaption>
                 </figure>
                 <div class="col col-sm-9">
-                    <h4>
+                    <h4 class="div-h4__decoration">
                         Без шашечек и наклеек
                     </h4>
-                    <p>
+                    <p class="div-p__decoration">
                         Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.
                     </p>
                 </div>
@@ -250,11 +247,11 @@
 </div>
     <section class="img main-block" style="background-image: url(img/photo-for-background.jpg)">
         <div class="container">
-            <div class="row flex-column justify-content-center align-items-center">
-                <div class="col-3 col-md-2 text-center div-first1">преимущества</div>
-                <h2 class="col text-center">МОБИЛЬНОЕ ПРИЛОЖЕНИЕ УБЕР</h2>
-                <p class="col text-center mb-4">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</p>
-                <div class="col row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="row row-cols-1">
+                <div class="col-4 offset-4 col-lg-2 offset-lg-5 text-center div-first1">преимущества</div>
+                <h2 class="col-lg-8 offset-lg-2 text-center ">МОБИЛЬНОЕ ПРИЛОЖЕНИЕ УБЕР</h2>
+                <p class="col-lg-8 offset-lg-2 text-center mb-4">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</p>
+                <div class="col row row-cols-1 row-cols-md-2 row-cols-lg-3 m-auto">
                     <div class="col">
                     <figure class="img div-figure position-relative" style="background-image: url(img/phone-png.jpg)">
                         <figcaption class="text-center position-absolute  figure-figcaption__position">
@@ -331,54 +328,54 @@
             </div>
         </div>
     </section>
-    <section class="main-block section__backgroundBlock">
+    <section class="main-block section__backgroundBlock position-relative">
         <div class="container">
-            <div class="row flex-column align-items-center pt-5">
-                <div class="col-3 col-md-2 text-center div-first2">Возможности</div>
-                <h2 class="col text-center">Выбор - отличная штука!</h2>
-                <p class="col text-center">Закажите автомобиль, который подходит вам по стилю и бюджету</p>
-                <figure class="col text-center img div-row-figure__height" style="background-image: url(img/car_for_uber_png.png)"></figure>
+            <div class="row row-cols-1 pt-5">
+                <div class="col-4 offset-4 col-lg-2 offset-lg-5 text-center div-first2">Возможности</div>
+                <h2 class="col-lg-4 offset-lg-4 text-center mb-5">Выбор - отличная штука!</h2>
+                <p class="col-lg-6 offset-lg-3 text-center">Закажите автомобиль, который подходит вам по стилю и бюджету</p>
+                <figure class="col text-center img div-row-figure__height position-absolute" style="background-image: url(img/car_for_uber_png.png)"></figure>
             </div>
         </div>
     </section>
     <section class="img" style="background-image: url(img/photo-for-background.jpg)">
-        <div class="container">
-            <div class="row justify-content-center align-items-center section-div__height">
-            <p class="col text-center">Машины на каждый день.<br>Лучше, быстрее и дешевле, чем такси</p>
+         <div class="container">
+            <div class="col offset- col-md-4 offset-md-4 row  align-items-center section-div__height justify-content-center">
+            <p class="text-center">Машины на каждый день.<br>Лучше, быстрее и дешевле, чем такси</p>
             </div>
         </div>
     </section>
     <section class="pt-5 main-block">
         <div class="container">
-            <div class="row flex-column justify-content-center align-items-center">
-                <div class="col-3 col-md-2 text-center div-first1">Возможности</div>
-                <h2 class="col text-center mb-5">условия и требования</h2>
-                <div class="col row row-cols-1 row-cols-md-2 font-weight-light">
+            <div class="row row-cols-1">
+                <div class="col-4 offset-4 col-lg-2 offset-lg-5 text-center div-first1">Возможности</div>
+                <h2 class="col-lg-8 offset-lg-2 text-center ">условия и требования</h2>
+                <div class="col row row-cols-1 row-cols-md-2 m-auto font-weight-light">
                         <div class="col mb-4">
                             <div class="row flex-column">
                         <h3 class="col div__colorBlue">УСЛОВИЯ: со своим авто:</h3>
                         <ul class="col list-unstyled ul-li__before">
                             <li>
-                                <i class="bi bi-check-circle"></i>  Подключаем к системе UBER  под 10%
+                                <img src="icons/Rectangle.png">  Подключаем к системе UBER  под 10%
                             </li>
                             <li>
-                                <i class="bi bi-check-circle"></i>  Ни каких взносов  0%!
+                                <img src="icons/Rectangle.png">  Ни каких взносов  0%!
                             </li>
                             <li>
-                                <i class="bi bi-check-circle"></i>  Можем подключать удаленно без приезда в офис
+                                <img src="icons/Rectangle.png">  Можем подключать удаленно без приезда в офис
                             </li>
                             <li>
-                                <i class="bi bi-check-circle"></i>  ИП не требуется
+                                <img src="icons/Rectangle.png">  ИП не требуется
                             </li>
                             <li>
-                                <i class="bi bi-check-circle"></i>  Заказы распределяются без учета рейтинга ближай-<br>
+                                <img src="icons/Rectangle.png">  Заказы распределяются без учета рейтинга ближай-<br>
                                 шим водителям
                             </li>
                             <li>
-                                <i class="bi bi-check-circle"></i>  Работа только по безналичному расчету
+                                <img src="icons/Rectangle.png">  Работа только по безналичному расчету
                             </li>
                             <li>
-                                <i class="bi bi-check-circle"></i>  Деньги перечисляем на карту водителю или наличны-<br>
+                                <img src="icons/Rectangle.png">  Деньги перечисляем на карту водителю или наличны-<br>
                                 ми в офисе
                             </li>
                         </ul>
@@ -390,13 +387,13 @@
                                     <h3 class="col div__colorBlue">УСЛОВИЯ: на авто компании:</h3>
                                     <ul class="col list-unstyled ul-li__before">
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Предоставляем авто без залога
+                                            <img src="icons/Rectangle.png">  Предоставляем авто без залога
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Без ежедневных выплат по аренде
+                                            <img src="icons/Rectangle.png">  Без ежедневных выплат по аренде
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Среда пятница и суббота работа на компанию осталь-
+                                            <img src="icons/Rectangle.png">  Среда пятница и суббота работа на компанию осталь-
                                             ные дни вы работаете на себя
                                         </li>
                                     </ul>
@@ -407,20 +404,20 @@
                                     <h3 class="col div__colorRed">ТРЕБОВАНИЕ:</h3>
                                     <ul class="col list-unstyled ul-li__before1">
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Наличие автомобиля без рекламы
+                                            <img src="icons/Layer%2031%20copy%207.png">  Наличие автомобиля без рекламы
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Автомобиль не должен быть желтый и не с желтыми
+                                            <img src="icons/Layer%2031%20copy%207.png">   Автомобиль не должен быть желтый и не с желтыми
                                             номерами
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Машина не старше 3 лет
+                                            <img src="icons/Layer%2031%20copy%207.png">   Машина не старше 3 лет
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Стаж вождения не менее 3 лет
+                                            <img src="icons/Layer%2031%20copy%207.png">   Стаж вождения не менее 3 лет
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Девайс на системе андроид 4.0 и выше(самсунг)
+                                            <img src="icons/Layer%2031%20copy%207.png">   Девайс на системе андроид 4.0 и выше(самсунг)
                                         </li>
                                     </ul>
                                 </div>
@@ -430,22 +427,22 @@
                                     <h3 class="col div__colorRed">ДОКУМЕНТЫ:</h3>
                                     <ul class="col list-unstyled ul-li__before1">
                                         <li>
-                                            <i class="bi bi-check-circle"></i> Права 2 стороны
+                                            <img src="icons/Layer%2031%20copy%207.png">  Права 2 стороны
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Паспорт лицевая сторона
+                                            <img src="icons/Layer%2031%20copy%207.png">  Паспорт лицевая сторона
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i> СтС
+                                            <img src="icons/Layer%2031%20copy%207.png">  СтС
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i> Лицензия (если есть)
+                                            <img src="icons/Layer%2031%20copy%207.png">  Лицензия (если есть)
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i> Номер телефона
+                                            <img src="icons/Layer%2031%20copy%207.png">  Номер телефона
                                         </li>
                                         <li>
-                                            <i class="bi bi-check-circle"></i>  Номер карты для перечисления денег(указать в письме)!
+                                            <img src="icons/Layer%2031%20copy%207.png">   Номер карты для перечисления денег(указать в письме)!
                                         </li>
                                     </ul>
                                 </div>
@@ -458,15 +455,15 @@
     <figure class="figure-last-block img pt-5" style="background-image: url(img/map_of_uber.jpg)">
         <div class="container">
             <div class="row flex-column justify-content-between figure-div__height">
-                <div class="">
-                        <div class="row flex-column justify-content-center align-items-center">
-                            <div class="col-3 col-md-2 text-center div-first2">города</div>
-                            <h2 class="col text-center">По всему миру</h2>
-                            <p class="col text-center">Мы в вашем городе и по всему миру</p>
+                <div>
+                        <div class="row row-cols-1">
+                            <div class="col-4 offset-4 col-lg-2 offset-lg-5 text-center div-first2">города</div>
+                            <h2 class="col-lg-4 offset-lg-4 text-center mb-5">По всему миру</h2>
+                            <p class="col-lg-4 offset-lg-4 text-center">Мы в вашем городе и по всему миру</p>
                         </div>
                 </div>
-                <div class=" text-center">
-                    <a href="#">посмотреть все города</a>
+                <div class="col-4 col-md-2 offset-4 offset-md-5 text-center">
+                    <a href="#" >посмотреть все города</a>
                 </div>
             </div>
         </div>
@@ -474,17 +471,15 @@
 </main>
 <footer class="position-relative">
     <div class="position-absolute row justify-content-center justify-content-lg-between footer-div__position row-cols-1  row-cols-lg-2">
-    <ul class="col col-lg-4 row list-unstyled mb-0 justify-content-center">
-    <li class="mr-3"><figure class="footer-figure__background"><i class="bi-brightness-high"></i></figure></li>
-    <li class="mr-3"><figure class="footer-figure__background"><i class="bi-brush"></i></figure></li>
-    <li class="mr-3"><figure class="footer-figure__background"><i class="bi-c-circle"></i></figure></li>
-    <li><figure class="footer-figure__background"><i class="bi-bullseye"></i></figure></li>
+    <ul class="col col-lg-4 row list-unstyled mb-0 justify-content-center text-center">
+    <li class="mr-3"><figure class="footer-figure__background"><img src="icons/facebook.svg" alt="1"></figure></li>
+    <li class="mr-3"><figure class="footer-figure__background"><img src="icons/twitter.svg" alt="1"></figure></li>
+    <li class="mr-3"><figure class="footer-figure__background"><img src="icons/linkedin.svg" alt="1"></figure></li>
+    <li><figure class="footer-figure__background"><img src="icons/instagram.svg" alt="1"></figure></li>
 </ul>
-    <ul class="col col-lg-4 row list-unstyled section-ul__position mb-0 justify-content-center justify-content-lg-end">
-        <li class="mr-1"><i class="bi-apple"></i><span class="d-inline-block">available on the</span> </li>
-        <li class="mr-1"></li>
-        <li></li>
-    </ul>
+        <figure class="col col-lg-4 text-center mb-0">
+        <img src="icons/Ссылки.jpg" class=" footer-img-height" alt="1">
+        </figure>
     </div>
 
     <hr class="footer-hr__decoration">
