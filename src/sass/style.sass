@@ -2,41 +2,56 @@
 = FirstBlock
   font-size: 14px
   padding: 7px 10px
-  margin-bottom: 40px
+  display: inline-block
+  margin-bottom: 0
+  text-transform: uppercase
 .img
   background-position: 50% 50%
   background-size: cover
   background-repeat: no-repeat
-.nav-bar .bg_light
-  background: #212121
 .nav-bar
+  background: #212121
   .navbar-nav
+    li
+      border-right: 2px dashed #000000
     a
       span
         color: #FFFFFF
         display: block
-        padding: 0 35px
-        border-right: 2px dashed #000000
         font-weight: 200
-      .navbar-nav_noBorder
-       border: none
+.div-p__position
+  color: #222
+  font-size: 17px
+  font-style: normal
+  font-weight: 400
 .figure-init_contact
   background: rgba(0, 0, 0, .5)
-  padding-top: 19px
-  padding-bottom: 19px
   position: absolute
   right: 0
   left: 0
   z-index: 100
   color: #fff
+  .figure-init__row
+   min-height: 84px
   .figure-init_contact__font100
+    color: #FFF
+    font-size: 13px
+    font-style: normal
     font-weight: 100
 
   .figure-init_contact__font200
-    font-weight: 200
+    color: #FFF
+    text-align: right
     font-size: 12px
+    font-style: normal
+    font-weight: 300
   .figure-init_contact__fontSize
-      font-size: 20px
+    color: #FFF
+    text-align: center
+    font-size: 22px
+    font-style: normal
+    font-weight: 400
+    text-transform: uppercase
 .figure-init
   height: 800px
   color: #fff
@@ -44,14 +59,31 @@
     height: 100%
     p:first-of-type
       margin-bottom: 40px
+      color: #FFF
+      text-align: center
+      font-size: 18px
+      font-style: normal
+      font-weight: 400
     p:last-of-type
       margin-bottom: 120px
+      color: #FFF
+      text-align: center
+      font-size: 18px
+      font-style: normal
+      font-weight: 400
     .content-h1H3
+      color: #FFF
+      text-align: center
+      font-size: 60px
+      font-style: normal
+      font-weight: 900
+      line-height: 24px
+      text-transform: uppercase
       margin-bottom: 25px
       h1
         font-size: 48px
       h3
-        font-size: 28px
+        font-size: 24px
         margin-bottom: 0
 .btn
   height: 50px
@@ -63,10 +95,6 @@
   text-transform: uppercase
   text-shadow: 1px 1px gray
   box-shadow: 0 3px #1998B0
-.footer-div__position
-  left: -2%
-  right: 4%
-  top: 30px
 .text-center .img-circle
   background: #0c5460
 .div-figure__radius
@@ -91,34 +119,46 @@
   color: #000000
 .main-block
   padding: 20px 0
+  h2
+    color: #222
+    font-size: 38px
+    font-style: normal
+    font-weight: 700
+    line-height: 48px
+    text-transform: uppercase
 .div-figure
   min-height: 280px
   .figure-figcaption__position
-    display: flex
-    justify-content: space-around
-    flex-direction: column
+    padding: 0 15px
     color: #fff
     top: 0
     bottom: 0
     right: 0
     left: 0
     h3
-      padding-top: 50px
-      font-weight: 300
+      color: #FFF
+      text-align: center
+      font-size: 24px
+      font-style: normal
+      font-weight: 400
       text-transform: uppercase
     a
-      width: 25px
-      height: 25px
+      width: 29px
+      height: 29px
       border-radius: 50%
       background: #000
-      color: #3F9DB4
       margin: 0 auto
-      .bi-plus::before
-        font-size: 25px
+      line-height: 29px
+
+
+
+
 .section__backgroundBlock
   color: #FFFFFF
   background: #000000
-  padding-bottom: 300px
+  height: 502px
+  h2
+    color: #fff
 .section-div__height
   height: 397px
 .div-h4__decoration
@@ -134,32 +174,41 @@
   font-weight: 300
   line-height: 21px
 .div-row-figure__height
-  min-height: 480px
+  height: 480px
   background-size: contain
   left: 0
   right: 0
-  bottom: -200px
 .div__colorBlue
   color: #1AA8C3
 .div__colorRed
   color:  #FF5756
+
+
+
 .ul-li__before
   li
-    i
-      color: #1AA8C3
-.ul-li__before1
-  li
-    i
-      color:  #FF5756
+    color: #222
+    font-size: 17px
+    font-style: normal
+    font-weight: 300
+    line-height: 24px
+
+
+
+
 .figure-last-block
-  height: 717px
+  height: 720px
   color: #fff
   h2
     font-size: 48px
   a
-    color: #20BAD6
+    color: #1FBAD6
+    font-size: 15px
+    font-style: normal
+    font-weight: 400
+    text-transform: uppercase
   .figure-div__height
-    height: 600px
+     min-height: 720px
 .footer-hr__decoration
   text-align: center
   width: 240px
@@ -178,13 +227,17 @@
     height: 32px
 
 
+.footer-div__position
+  left: 25px
+  top: 30px
+.footer-div__position2
+  right: 25px
+  top: 30px
+
+
+
 
 @media all and (max-width: 990px)
-  .footer-div__position
-    right: 0
-    left: 0
-    top: 175px
-
 
 
 
