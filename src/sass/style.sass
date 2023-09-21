@@ -5,6 +5,20 @@
   display: inline-block
   margin-bottom: 0
   text-transform: uppercase
+= h1h3
+  color: #FFF
+  text-align: center
+  font-style: normal
+  font-weight: 900
+  text-transform: uppercase
+  margin-bottom: 25px
+.figcaption-h1__decoration
+  font-size: 48px
+  @include h1h3
+.figcaption-h3__decoration
+  font-size: 24px
+  margin-bottom: 0
+  @include h1h3
 .img
   background-position: 50% 50%
   background-size: cover
@@ -15,10 +29,13 @@
     li
       border-right: 2px dashed #000000
     a
-      span
-        color: #FFFFFF
-        display: block
-        font-weight: 200
+      color: #fff
+      font-size: 12px
+      font-style: normal
+      font-weight: 300
+      padding: 10px 0
+      text-align: center
+      display: block
 .div-p__position
   color: #222
   font-size: 17px
@@ -34,7 +51,6 @@
   .figure-init__row
    min-height: 84px
   .figure-init_contact__font100
-    color: #FFF
     font-size: 13px
     font-style: normal
     font-weight: 100
@@ -56,7 +72,7 @@
   height: 800px
   color: #fff
   .figure-init_content
-    height: 100%
+    height: 800px
     p:first-of-type
       margin-bottom: 40px
       color: #FFF
@@ -71,22 +87,8 @@
       font-size: 18px
       font-style: normal
       font-weight: 400
-    .content-h1H3
-      color: #FFF
-      text-align: center
-      font-size: 60px
-      font-style: normal
-      font-weight: 900
-      line-height: 24px
-      text-transform: uppercase
-      margin-bottom: 25px
-      h1
-        font-size: 48px
-      h3
-        font-size: 24px
-        margin-bottom: 0
+
 .btn
-  height: 50px
   width: auto
   font-size: 13px
   padding: 14px 22px
@@ -95,6 +97,25 @@
   text-transform: uppercase
   text-shadow: 1px 1px gray
   box-shadow: 0 3px #1998B0
+.btn1
+  width: auto
+  text-align: center
+  height: 40px
+  line-height: 40px
+  font-size: 13px
+  padding: 0
+  background: #55B7CF
+  color: #fff
+  text-transform: uppercase
+  text-shadow: 1px 1px gray
+  box-shadow: 0 3px #1998B0
+  border-radius: 3px
+.btn1:hover
+  color: #fff
+  text-decoration: none
+
+
+
 .text-center .img-circle
   background: #0c5460
 .div-figure__radius
@@ -118,13 +139,11 @@
   background: #FFFFFF
   color: #000000
 .main-block
-  padding: 20px 0
   h2
     color: #222
-    font-size: 38px
+    font-size: 37px
     font-style: normal
     font-weight: 700
-    line-height: 48px
     text-transform: uppercase
 .div-figure
   min-height: 280px
@@ -149,8 +168,6 @@
       background: #000
       margin: 0 auto
       line-height: 29px
-
-
 
 
 .section__backgroundBlock
@@ -178,6 +195,8 @@
   background-size: contain
   left: 0
   right: 0
+  bottom: -45%
+
 .div__colorBlue
   color: #1AA8C3
 .div__colorRed
@@ -228,16 +247,29 @@
 
 
 .footer-div__position
-  left: 25px
+  left: 5%
+  right: 5%
   top: 30px
-.footer-div__position2
-  right: 25px
-  top: 30px
+
+
+
 
 
 
 
 @media all and (max-width: 990px)
+  .footer-div__position
+    right: 0
+    left: 0
+    top: 235px
+
+@media all and (max-width: 800px)
+.figure-init
+  .figure-init_content
+    p:last-of-type
+      margin-bottom: 20px
+
+
 
 
 
