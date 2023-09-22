@@ -1,4 +1,6 @@
 @import "variables"
+figure
+  margin: 0 0
 = FirstBlock
   font-size: 14px
   padding: 7px 10px
@@ -54,7 +56,6 @@
     font-size: 13px
     font-style: normal
     font-weight: 100
-
   .figure-init_contact__font200
     color: #FFF
     text-align: right
@@ -87,7 +88,8 @@
       font-size: 18px
       font-style: normal
       font-weight: 400
-
+.colorWhite
+  color: #fff
 .btn
   width: auto
   font-size: 13px
@@ -113,9 +115,8 @@
 .btn1:hover
   color: #fff
   text-decoration: none
-
-
-
+.div-first__height
+  min-height: 180px
 .text-center .img-circle
   background: #0c5460
 .div-figure__radius
@@ -139,12 +140,27 @@
   background: #FFFFFF
   color: #000000
 .main-block
+  height: 140px
   h2
     color: #222
-    font-size: 37px
+    font-size: 32px
     font-style: normal
     font-weight: 700
     text-transform: uppercase
+    height: auto
+    max-height: 40px
+.main-block1
+  height: 205px
+  h2
+    color: #222
+    font-size: 32px
+    font-style: normal
+    font-weight: 700
+    text-transform: uppercase
+    height: auto
+
+
+
 .div-figure
   min-height: 280px
   .figure-figcaption__position
@@ -202,8 +218,6 @@
 .div__colorRed
   color:  #FF5756
 
-
-
 .ul-li__before
   li
     color: #222
@@ -247,9 +261,10 @@
 
 
 .footer-div__position
-  left: 5%
-  right: 5%
+  left: -100px
+  right: -50px
   top: 30px
+
 
 
 
@@ -261,7 +276,7 @@
   .footer-div__position
     right: 0
     left: 0
-    top: 235px
+    top: 130px
 
 @media all and (max-width: 800px)
 .figure-init
