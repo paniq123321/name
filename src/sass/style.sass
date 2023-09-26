@@ -1,4 +1,9 @@
 @import "variables"
+@font-face
+  font-family: roboto
+  src: url('src/шрифты/Roboto/Roboto-Black.ttf') format("truetype")
+*
+  font-family: 'roboto', sans-
 figure
   margin: 0 0
 = FirstBlock
@@ -140,24 +145,21 @@ figure
   background: #FFFFFF
   color: #000000
 .main-block
-  height: 140px
+  min-height: 140px
   h2
     color: #222
     font-size: 32px
     font-style: normal
     font-weight: 700
     text-transform: uppercase
-    height: auto
-    max-height: 40px
 .main-block1
-  height: 205px
+  min-height: 205px
   h2
     color: #222
     font-size: 32px
     font-style: normal
     font-weight: 700
     text-transform: uppercase
-    height: auto
 
 
 
@@ -178,12 +180,12 @@ figure
       font-weight: 400
       text-transform: uppercase
     a
-      width: 29px
-      height: 29px
+      width: 26px
+      height: 26px
       border-radius: 50%
       background: #000
       margin: 0 auto
-      line-height: 29px
+
 
 
 .section__backgroundBlock
@@ -225,6 +227,7 @@ figure
     font-style: normal
     font-weight: 300
     line-height: 24px
+    justify-content: right
 
 
 
@@ -265,18 +268,15 @@ figure
   right: -50px
   top: 30px
 
-
-
-
-
-
-
-
 @media all and (max-width: 990px)
   .footer-div__position
     right: 0
     left: 0
-    top: 130px
+    top: 150px
+  .nav-bar
+    .navbar-nav
+      li
+        border-right: none
 
 @media all and (max-width: 800px)
 .figure-init
