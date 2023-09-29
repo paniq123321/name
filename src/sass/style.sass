@@ -2,8 +2,10 @@
 @font-face
   font-family: roboto
   src: url('src/шрифты/Roboto/Roboto-Black.ttf') format("truetype")
+
 *
   font-family: 'roboto', sans-serif
+  max-width: 100%
 figure
   margin: 0 0
 = FirstBlock
@@ -88,6 +90,7 @@ figure
   color: #fff
   .figure-init_content
     height: 800px
+
     p:first-of-type
       margin-bottom: 40px
       color: #FFF
@@ -141,8 +144,6 @@ figure
   background: #0c5460
 .div-figure__radius
   color: white
-  background: #20ACC7
-  border-radius: 50%
   display: flex
   width: 100px
   height: 100px
@@ -200,10 +201,12 @@ figure
       text-transform: uppercase
       font-family: 'Roboto' , sans-serif
     a
-      width: 26px
-      height: 26px
-      background: #000
+      width: 24px
+      height: 24px
       margin: 0 auto
+      border-radius: 50%
+      background-size: initial
+
 
 
 
@@ -246,10 +249,6 @@ figure
     font-weight: 300
     line-height: 24px
     justify-content: right
-
-
-
-
 .figure-last-block
   height: 720px
   color: #fff
@@ -267,6 +266,10 @@ figure
   text-align: center
   width: 240px
   border: 2px solid #1EBAD7
+footer
+  a
+    color: black
+
 .footer-img-height
   width: 295px
   height: 27px
@@ -281,10 +284,12 @@ figure
     height: 32px
 
 
-.footer-div__position
-  left: -15px
-  top: -80px
-
+.footer-div__position1
+  top: 30px
+  left: 20px
+.footer-div__position2
+  top: 30px
+  right: 20px
 @media all and (max-width: 1200px)
   .figcaption-h1__decoration
     font-size: 48px
@@ -292,17 +297,21 @@ figure
     font-size: 32px
   .nav-bar .navbar-nav a
     font-size: 12px
-@media all and (max-width: 995px)
 
+
+@media all and (max-width: 995px)
   .main-block
     h2
       font-size: 32px
   .main-block1
     h2
       font-size: 32px
-  .footer-div__position
-    top: 0
-    margin-left: 15px
+  .footer-div__position1, .footer-div__position2
+    top: 130px
+    left: 10px
+    right: 10px
+  .footer-div__position2
+    top: 180px
 
   .figcaption-h1__decoration
     font-size: 42px
@@ -311,7 +320,8 @@ figure
   .nav-bar
     .navbar-nav
       li
-        border-right: none
+        a
+          font-size: 9px
 
 @media all and (max-width: 800px)
   .figure-init
@@ -324,7 +334,19 @@ figure
   .main-block1
     h2
       font-size: 26px
-
+@media all and (max-width: 767px)
+  .nav-bar
+    .navbar-nav
+      li
+        border-right: none
+        a
+          font-size: 14px
+  .main-block
+    h2
+      font-size: 23px
+  .main-block1
+    h2
+      font-size: 23px
 
 @media all and (max-width: 700px)
   .figcaption-h1__decoration
@@ -335,10 +357,10 @@ figure
 @media all and (max-width: 560px)
   .main-block
     h2
-      font-size: 23px
+      font-size: 20px
   .main-block1
     h2
-      font-size: 23px
+      font-size: 20px
 
 
 
